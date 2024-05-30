@@ -40,7 +40,7 @@ public class Autobuz {
         }
         else
         {
-            System.out.printf("Autobuzul %d condus de %s este deja la reparat.%n", this.linie, this.sofer);
+            System.out.printf("Autobuzul %d condus de %s a ajuns deja la reparat.%n", this.linie, this.sofer);
         }
     }
 
@@ -53,7 +53,7 @@ public class Autobuz {
         }
         else
         {
-            System.out.printf("Autobuzul %d condus de %s este deja la capăt de linie.%n", this.linie, this.sofer);
+            System.out.printf("Autobuzul %d condus de %s a ajuns deja la capăt de linie.%n", this.linie, this.sofer);
         }
     }
 }
